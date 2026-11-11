@@ -1,0 +1,72 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ============================================================
+# Large ML model weights — download separately
+# ============================================================
+*.pt
+*.pth
+*.onnx
+*.weights
+*.h5
+
+# ============================================================
+# Large datasets
+# ============================================================
+model_comparsion/dataset/
+edge_detection/image_processing/model_comparsion/dataset/
+
+# ============================================================
+# IDE / editor files
+# ============================================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ============================================================
+# OS files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Duplicate / misplaced subdirectory copies
+# ============================================================
+# The edge_detection/image_processing/ folder is an accidental
+# copy of the root-level traffic project — excluded from VCS.
+edge_detection/image_processing/
+
+# Root-level duplicate files (originals live in their projects)
+grayscale.jpg
+object_detection.jpg
+zebra_candidates.jpg
+
+# ============================================================
+# Secrets & credentials
+# ============================================================
+*.env
+secrets.py
+config_private.py
+credentials.json

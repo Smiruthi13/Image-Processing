@@ -1,0 +1,22 @@
+# Image Processing — Python Dependencies
+#
+# Install with:
+#   python -m pip install -r requirements.txt
+#
+# Note: PyTorch and Torchvision install instructions depend on your hardware.
+# For CPU-only (default, works everywhere):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# For CUDA GPU support visit: https://pytorch.org/get-started/locally/
+
+# Core image processing & computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# YOLO object detection (Ultralytics)
+ultralytics>=8.0.0
+
+# Deep learning inference (CPU-safe; replace with GPU build as needed)
+torch>=2.0.0
+torchvision>=0.15.0
